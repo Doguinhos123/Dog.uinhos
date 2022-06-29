@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.service{
+	background: #E9DEB0;
+	width: 100%;
+	padding: 100px 0px;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 380px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #E9DEB0;
+	border-radius: 9px;
+	border: 2px solid #2F615E;
+	margin: 15px;
+	margin-top: 150px;
+	overflow: hidden;
+	text-align: center;
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.card .button{
+	background-color:#482C21;
+	color: #E9DEB0;
+	text-decoration: none;
+	border: 1px solid #2F615E;
+	font-weight: bold;
+	padding: 8px 22px;
+	border-radius: 30px;
+
+}
+.circulo {
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+	margin: 20px;
+	margin-left: 28px;
+}
+body {
+	background-image: url(../img/dogs.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+
